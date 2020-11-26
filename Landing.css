@@ -67,26 +67,74 @@
     padding: 0 20px;
 }
 
-.smth {
-    background-size: 37px 54px;
-    background-repeat: no-repeat;
-    background-image: url("Images/iphone_12_pro_icon.png");
-    width:37px
-}
-
-html.no-svg .chapternav-item-iphone-12-pro .chapternav-icon {
-    background-image: url("Images/iphone_12_pro_icon.png")
-}
-
 .theme-dark .chapternav-item-iphone-12-pro .chapternav-icon {
     background-size: 37px 54px;
     background-repeat: no-repeat;
-    background-image: url("Images/iphone_12_pro_icon.png");
+    background-image: url("Images/iphone_12_pro_icon.svg");
     width:37px
 }
 
-html.no-svg .theme-dark .chapternav-item-iphone-12-pro .chapternav-icon {
-    background-image: url("Images/iphone_12_pro_icon.png")
+.theme-dark .chapternav-item-iphone-12 .chapternav-icon {
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("Images/iphone_12_icon.svg");
+    width:37px
+}
+
+.theme-dark .chapternav-item-iphone-se .chapternav-icon {
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("Images/iphone_se_icon.svg");
+    width:37px
+}
+
+.theme-dark .chapternav-item-iphone-11 .chapternav-icon {
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("Images/iphone_11_icon.svg");
+    width:37px
+}
+
+.theme-dark .chapternav-item-iphone-xr .chapternav-icon {
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("Images/iphone_xr_icon.svg");
+    width:37px
+}
+
+.theme-dark .chapternav-item-compare .chapternav-icon {
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("Images/compare_icon.svg");
+    width:37px
+}
+
+.theme-dark .chapternav-item-airpods .chapternav-icon {
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("Images/airpods_icon.svg");
+    width:37px
+}
+
+.theme-dark .chapternav-item-accessories .chapternav-icon {
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("Images/accecories_icon.svg");
+    width:37px
+}
+
+.theme-dark .chapternav-item-apple-card .chapternav-icon {
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("Images/apple_card_icon.svg");
+    width:37px
+}
+
+.theme-dark .chapternav-item-ios .chapternav-icon {
+    background-size: 37px 54px;
+    background-repeat: no-repeat;
+    background-image: url("Images/ios_icon.svg");
+    width:37px
 }
 
 .chapternav-new {
@@ -101,6 +149,10 @@ html.no-svg .theme-dark .chapternav-item-iphone-12-pro .chapternav-icon {
     top: 100%;
     left: 0;
     width: 100%;
+}
+
+.theme-dark .chapternav-link {
+	color: #f5f5f7;
 }
 
 .chapternav-label {
@@ -118,4 +170,164 @@ html.no-svg .theme-dark .chapternav-item-iphone-12-pro .chapternav-icon {
     display: block;
     margin: 0 auto  7px;
     height: 54px;
+}
+
+.section-hero .section-content {
+	align-items: center;
+}
+
+.copy-wrapper {
+	margin-bottom: 33px;
+}
+
+.large-12 {
+	flex-basis: 100%;
+	max-width: 100%;
+}
+
+.section-hero .tile-wrapper {
+	text-align: center;
+	padding-bottom: 110px;
+}
+
+.tile-iphone-12-pro .hero-bgimage {
+	background-image: url("Images/iphone_12_pro_preview_icon.jpg");
+}
+
+.tile-iphone-12-pro .hero-bgimage {
+	width: 263px;
+	height: 341px;
+	background-size: 263px 341px;
+	background-repeat: no-repeat;
+	background-image: url("Images/iphone_12_pro_preview_icon.jpg");
+	position: relative;
+	left: 70%;
+	margin-left: -426px;
+}
+
+.large-centered {
+	margin-left: auto;
+	margin-right: auto;
+}
+
+.small-12 {
+	flex-basis: 100%;
+	max-width: 100%;
+}
+
+.row {
+	display: flex;
+	flex-wrap: wrap;
+	flex-direction: row;
+	width: 100%;
+}
+
+.section-hero .section-content {
+	align-items: center;
+}
+
+.section-content {
+	margin-left: auto;
+	margin-right: auto;
+	width: 87.5%;
+}
+
+.typography-hero-headline {
+	font-size: 40px;
+	line-height: 1.1;
+	font-weight: 600;
+	color: white;
+	letter-spacing: 0em;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.section-hero .copy-wrapper .hero-headline {
+	margin-top: 9px;
+}
+
+.section-hero .copy-wrapper {
+	box-sizing: border-box;
+	margin-bottom: 68px;
+}
+
+.typography-hero-eyebrow {
+	font-size: 19px;
+	line-height: 1.21053;
+	font-weight: 600;
+	letter-spacing: .012em;
+	color: white;
+	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.typography-hero-copy {
+	font-size: 17px;
+	line-height: 1.47059;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	color: white;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.typography-hero-copy {
+	line-height: 1.47059;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	color: white;
+}
+
+.copy-wrapper .links-stacked.stacked {
+	margin-top: 18px;
+}
+
+.links-stacked {
+	margin-left: 0;
+	margin-right: 0;
+	list-style: none;
+}
+
+.copy-wrapper .links-stacked.stacked .cta-link:first-child {
+	margin-top: 0;
+}
+
+.button {
+	cursor: pointer;
+	display: inline-block;
+	text-align: center;
+	white-space: nowrap;
+	font-size: 17px;
+	line-height: 1.17648;
+	font-weight: 400;
+	letter-spacing: -.022em;
+	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	min-width: 28px;
+	padding-left: 16px;
+	padding-right: 16px;
+	padding-top: 8px;
+	padding-bottom: 8px;
+	border-radius: 18px;
+	background: #0071e3;
+	color: #fff;
+}
+
+a:link, a:visited, .link:link, .link:visited {
+	text-decoration: none;
+}
+
+.theme-dark .button {
+	background: #0071e3;
+	color: #fff;
+}	
+
+.theme-dark a, .theme-dark .link {
+	color: #2997ff;
+}
+
+a, .link {
+	color: #06c;
+	letter-spacing: inherit;
+}
+
+a:any-link {
+	cursor: auto;
 }
