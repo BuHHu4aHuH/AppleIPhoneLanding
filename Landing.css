@@ -1,4 +1,9 @@
 
+body {
+    padding: 0;
+    margin: 0;
+}
+
 .topnav {
 	background-color: rgb(10, 10, 10);
 	overflow: hidden;
@@ -330,4 +335,79 @@ a, .link {
 
 a:any-link {
 	cursor: auto;
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    padding: 100px;
+}
+  
+.grid-item {
+    background-color: rgba(255, 255, 255, 0.8);
+    text-align: center;
+}
+
+#h1, h2 {
+    display: block;
+    margin-block-start: 0.83em;
+    margin-block-end: 0.83em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+.typography-headline {
+    text-align: center;
+    font-size: 32px;
+    line-height: 1.125;
+    font-weight: 600;
+    letter-spacing: .004em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.iPhoneTypeLabel {
+    text-align: left;
+    font-size: 19px;
+    line-height: 1.21053;
+    font-weight: 600;
+    letter-spacing: .012em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+a, .link {
+    color: #06c;
+    letter-spacing: inherit;
+}
+
+.compareLink {
+    text-align: center;
+}
+
+.iPhonesListUl {
+    list-style-type: none;
+    padding-left: 0;
+}
+
+.iPhonePriceLabel {
+    text-align: left;
+    margin-top: 7px;
+    font-size: 14px;
+    line-height: 1.42859;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.list-item {
+    margin-top: 20px;
+    text-align: left;
+    font-size: 14px;
+    line-height: 1.42859;
+    font-weight: 400;
+    letter-spacing: -.016em;
+    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.iPhonesPurchaseImage {
+    width: 50%;
+    float: left;
 }
