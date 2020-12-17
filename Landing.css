@@ -256,12 +256,11 @@ body {
 }
 
 .typography-hero-eyebrow {
-	font-size: 19px;
-	line-height: 1.21053;
-	font-weight: 600;
-	letter-spacing: .012em;
-	color: white;
-	font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+	font-size: 21px;
+    line-height: 1.19048;
+    font-weight: 600;
+    letter-spacing: .011em;
+    font-family: "SF Pro Display","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
 }
 
 .typography-hero-copy {
@@ -271,14 +270,6 @@ body {
 	letter-spacing: -.022em;
 	color: white;
 	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-
-.typography-hero-copy {
-	line-height: 1.47059;
-	font-weight: 400;
-	letter-spacing: -.022em;
-	font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-	color: white;
 }
 
 .copy-wrapper .links-stacked.stacked {
