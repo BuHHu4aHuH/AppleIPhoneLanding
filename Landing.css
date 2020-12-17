@@ -195,17 +195,18 @@ body {
 }
 
 .tile-iphone-12-pro .hero-bgimage {
-	background-image: url("Images/iphone_12_pro_preview_icon.jpg");
+    left: 50%;
+    margin-left: -302.5px;
 }
 
 .tile-iphone-12-pro .hero-bgimage {
-	width: 263px;
-	height: 341px;
-	background-size: 263px 341px;
-	background-repeat: no-repeat;
-	background-image: url("Images/iphone_12_pro_preview_icon.jpg");
+    width: 837px;
+    height: 377px;
+    background-size: 837px 377px;
+    background-repeat: no-repeat;
+	background-image: url("Images/iphone_12_pro__f7wokw1n4lm6_large_2x.jpg");
 	position: relative;
-	left: 70%;
+	left: 60%;
 	margin-left: -426px;
 }
 
