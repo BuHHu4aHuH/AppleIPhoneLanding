@@ -3,19 +3,6 @@ body {
     margin: 0;
 }
 
-@media(max-width: 812px){
-    .content{
-        flex-direction: column;
-        align-items: center;
-    }
-}
-@media(max-width: 375px){
-    html{
-        width: 100%;
-        height: 100%;
-    }
-}
-
 /* Top nav */
 
 .topnav {
@@ -353,10 +340,10 @@ a:any-link {
 .grid-container {
     display: grid;
     grid-template-columns: auto auto auto auto;
-    padding: 100px;
 }
   
 .grid-item {
+    display: block;
     background-color: rgba(255, 255, 255, 0.8);
     text-align: center;
 }
@@ -518,4 +505,39 @@ a, .link {
     letter-spacing: -.01em;
     color: white;
     font-family: "SF Pro Text","Myriad Set Pro","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
+}
+
+.displayBlockDiv {
+    display: block;
+}
+
+@media(max-width: 812px){
+    .content{
+        flex-direction: column;
+        align-items: center;
+    }
+    
+}
+@media(max-width: 375px){
+    html{
+        width: 100%;
+        height: 100%;
+    }
+
+    .tile-iphone-12-pro .hero-bgimage  {
+        background-size: 25%;
+        background-position: center;
+        background-image: url("Images/iphone_12_pro_preview_icon.jpg");
+    }
+
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto auto;
+        grid-template-rows: auto auto;
+    }
+
+    .hero-bgimage {
+        width: 40%;
+        height: 40%;
+    }
 }
