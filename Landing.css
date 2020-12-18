@@ -15,7 +15,6 @@ body {
     color: #f2f2f2;
     text-align: center;
     padding: 14px 16px;
-    text-decoration: none;
     font-size: 17px;
 }
   
@@ -178,7 +177,7 @@ body {
 .chapternav-icon {
     background: center bottom no-repeat;
     display: block;
-    margin: 0 auto  7px;
+    margin: 0 auto 7px;
     height: 54px;
 }
 
@@ -214,7 +213,15 @@ body {
 	background-image: url("Images/iphone_12_pro__f7wokw1n4lm6_large_2x.jpg");
 	position: relative;
 	left: 60%;
-	margin-left: -426px;
+    margin-left: -426px;
+    transition-property: width;
+    transition-duration: 2s;
+    transition-timing-function: linear;
+    transition-delay: 1s;
+}
+
+.tile-iphone-12-pro .hero-bgimage:hover {
+    width: 0px;
 }
 
 .large-centered {
@@ -485,7 +492,7 @@ a, .link {
 
 .topNavli {
     float: left;
-  }
+}
   
 .topNavli a {
     display: block;
@@ -539,5 +546,9 @@ a, .link {
     .hero-bgimage {
         width: 40%;
         height: 40%;
+    }
+
+    .topNavli a {
+        padding: 8px;
     }
 }
