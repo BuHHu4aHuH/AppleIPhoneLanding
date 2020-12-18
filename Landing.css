@@ -31,7 +31,10 @@ body {
 /* chapternav */
 
 .chapternav-items {
+    /* margin: 0 34px; */
+    
     margin: 0 34px;
+    position: sticky;
     overflow-x: auto;
     overflow-y: hidden;
     white-space: nowrap;
@@ -212,7 +215,7 @@ body {
     background-repeat: no-repeat;
 	background-image: url("Images/iphone_12_pro__f7wokw1n4lm6_large_2x.jpg");
 	position: relative;
-	left: 60%;
+    left: 60%;
     margin-left: -426px;
     transition-property: width;
     transition-duration: 2s;
